@@ -1,0 +1,27 @@
+.navbar-nav{
+margin-left: 100px;
+
+}
+.nav-link{
+    margin-left: 10px;
+    
+}
+
+.form-inline
+{
+    margin-left: 600px;
+}
+
+.navbar{
+    padding-top: 40px;
+}
+
+.navbarSupportedContent
+{
+    
+    
+    margin: auto;
+    position: absolute;
+    top:0;bottom:0; 
+    left:0;right:0; 
+}

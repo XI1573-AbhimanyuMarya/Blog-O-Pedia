@@ -1,0 +1,41 @@
+<div class="signup">
+    <div class="container">
+
+            <div class="signup-image">
+                <figure><img src="../../../assets/logo.png" alt="sing up image"></figure>
+                <a href="/login" style="padding-left: 160px;" class="signup-image-link">I am already member</a>
+            </div>
+
+
+            <div class="signup-form">
+                <h2 class="form-title" style="padding-bottom: 10px;">Sign up</h2>
+
+                <form method="POST" class="register-form" id="register-form">
+                    <div class="form-group">
+                        <input type="text" name="name" [(ngModel)]="register_username" placeholder="Your Name" />
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" [(ngModel)]="register_email" placeholder="Your Email" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="password" [(ngModel)]="register_password" placeholder="Password" />
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="re_password" [(ngModel)]="register_password1" placeholder="Repeat your password" />
+                    </div>
+
+                    <div class="form-group">
+                        <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                        <label for="agree-term" style="padding-left: 5px;" class="label-agree-term"><span><span></span></span>I agree all
+                            statements in <a href="#" class="term-service">Terms of service</a></label>
+                    </div>
+                    <div class="form-group form-button">
+                        <button type="button" (click)="registerApplicant()" class="btn btn-success btn-sm">Register</button>
+                    </div>
+                </form>
+
+
+            </div>
+   
+    </div>
+</div>
